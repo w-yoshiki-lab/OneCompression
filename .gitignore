@@ -64,3 +64,14 @@ dashboard/frontend/package-lock.json
 
 # vLLM / worker logs written under /tmp by setup-hpc.md
 *.log
+
+.venv
+.venv-gpu/
+
+# Locally generated quantized models
+qwen3-0.6b-gptq4/
+qwen3-8b-gptq4/
+
+# Runtime state
+*.pid
+*.progress.json
